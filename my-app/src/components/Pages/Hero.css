@@ -1,0 +1,44 @@
+
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap");
+
+.parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child-2 img{
+    width: 300px;
+    height: 504.32px
+}
+
+.child{
+    border: 1px solid;
+font-size: 25px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.child-2{
+    width: 500px;
+    border: 1px solid;
+}
+
+/* img size img 1*/
+#img1{
+    
+position: relative;
+bottom: 100px;
+right: 10px;
+}
+#img2{
+position: relative;
+    bottom:610px;
+    right: 100px;
+}
+#img3{
+    position: relative;
+        top: 20px;
+        left: 20px;
+}
