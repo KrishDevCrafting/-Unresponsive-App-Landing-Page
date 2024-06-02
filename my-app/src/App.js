@@ -1,10 +1,10 @@
 import React from "react"
-
-
+import Navbar from "./components/Header/Navbar"
+import Main from "./components/Pages/HeroSection"
 const Landingpage = () =>{
 return <>
-
-<h1>Let's Rock...!</h1>
+<Navbar/>
+<Main/>
 </>
 
 }

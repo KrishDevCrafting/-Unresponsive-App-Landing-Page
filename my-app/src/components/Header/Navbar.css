@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav{
+    margin-top: 40px;
+    font-size: 20px;
+        font-family: 'Clash Display', sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    display: flex;
+    justify-content:center;
+}
+
+#home a{
+    color: orangered;
+}
+.nav a {
+    color: black;
+    text-decoration: none;
+    
+}
+ /* style id use for center the text into the img */
+#style {
+font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-block;
+    position: absolute;
+     margin-top:11px ;
+}
+#btn {
+    width: 180px;
+    height: 60px;
+    border-radius: 4px;
+    background: #000;
+    font-size: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-style: normal;
+    margin-left: 500px;
+    perspective: 1000px;
+    /* Adding perspective for 3D effect */
+    transition: transform 0.3s ease;
+    /* Adding transition for smooth effect */
+}
+
+#btn:hover {
+    transform: rotateX(20deg);
+    background-color: #333;
+    /* Rotate the button along the X-axis on hover */
+}
+.center{
+    
+    margin-top: 10px;
+}
+
+.size {
+margin-left: 20px;
+
+}
+
+.change{
+    margin-right: 80px;
+}
