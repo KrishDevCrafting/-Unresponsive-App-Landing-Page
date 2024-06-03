@@ -15,7 +15,7 @@
 
 .child{
     width: 500px;
-    border: 1px solid;
+    
 font-size: 25px;
     font-family: 'Clash Display', sans-serif;
     font-weight: 700;
@@ -23,9 +23,11 @@ font-size: 25px;
 }
 
 .child-2{
+    
     width: 500px;
-    border: 1px solid;
+
 }
+
 
 /* img size img 1*/
 #img1 {

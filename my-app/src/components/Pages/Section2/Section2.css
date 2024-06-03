@@ -2,23 +2,128 @@
 @import url("https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap");
 .main-box{
     margin-top: 80px;
-    border: 2px solid red;
+    
     display: flex;
     justify-content: space-evenly;
 }
 .box{
-    border: 1px solid;
+height: 600px;
+    font-weight: 500;
+        font-size: 18px;
+        font-family: 'Clash Display', sans-serif;
+    
 }
 .box img{
     width: 719.49px;
     height: 719.49px;
 }
 
-.box{
-    font-weight: 500;
-        font-size: 18px;
-        font-family: 'Clash Display', sans-serif;
+.box li {
+text-transform: capitalize;
+    list-style: none;
+
 }
 
-
+#star-icon{
+    
+position: relative;
+top: 10px;
+   
+    width: 30px;
+    height: 30px;
+}
 /* for github checkup */
+/* Section-2 main-box-2 start */
+
+.main-box-2{
+
+    margin: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Clash Display', sans-serif;
+}
+#sub-heading{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 48px;
+}
+
+#heading{
+    font-size: 18px;
+    color:  #FF5555;
+    text-transform:uppercase;
+}
+#text{
+    color: gray;
+    font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+}
+.box-2 img{
+    height: 719.49px;
+    width: 719.49px;
+}
+/* End of the section-2 or box-2 */
+.main-box-3{
+    
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-3 h1{
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.box-3 p{
+    color: gray;
+    font-size: 18px;
+        font-family: 'Clash Display', sans-serif;
+}
+/* .box-3 img{
+    height: 719.49px;
+    width: 719.49px;
+} */
+#startOr{
+    padding: 10px;
+position: relative;
+top: 23px;
+}
+#align{
+    
+        font-family: 'Clash Display', sans-serif;
+    
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main-box-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box-4{
+    padding: 10px;
+    text-transform: capitalize;
+    
+    font-family: 'Clash Display', sans-serif
+}
+#text-style{
+    padding-top: 20px;
+        font-size: 18px;
+        color: gray;
+}
+
+#name{
+    padding-top: 20px;
+    font-size: 18px;
+        font-family: 'Clash Display', sans-serif;
+    text-transform: capitalize;
+}
+#GroupMenImg{
+
+    padding-top: 20px;
+}

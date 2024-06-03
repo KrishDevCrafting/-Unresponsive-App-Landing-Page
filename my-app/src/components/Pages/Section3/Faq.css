@@ -1,0 +1,106 @@
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap");
+.parent-1{
+   
+        font-family: 'Clash Display', sans-serif;
+}
+#faq-text{
+    font-size: 18px;
+}
+#head{
+    font-size: 48px;
+}
+
+.parent-2{
+    color: white;
+    margin: 20px;
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child-1{
+    padding: 30px;
+    border: 1px solid;
+    width: 535px;
+    height: 181px;
+}
+#style-head{
+    text-transform: capitalize;
+    font-size: 28px;
+}
+#style-text{
+ 
+    font-size:18px ;
+}
+.box-color-1{
+    background:  #FF5555;;
+}
+.font-color{
+   
+    color: #000;
+}.text-color{
+    color: gray;
+}
+.align-img{
+    text-align: center;
+}
+
+/* Footer */
+
+.end-main {
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.end-main li{
+    padding: 10px 0px 10px 0px;
+    list-style: none;
+    
+}
+.end-main a{
+color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffc451;
+}
+
+.box-end {
+    padding: 50px;
+}
+.box-end img{
+    padding: 10px;
+}
+#align-img{
+    position: relative;
+    top: 16px;
+}
+#sub{
+    background: #000;
+    color: #ffff;
+    width:  160px;
+    height: 61px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    border-radius:4px ;
+}
+.transparent-input {
+    background-color: transparent;
+    
+    /* Optional: Add a border */
+    padding: 10px;
+    color: #333;
+    ;
+    /* Optional: Full width */
+    box-sizing: border-box;
+    /* Optional: Include padding and border in element's total width and height */
+}
+::placeholder{
+    border-style: none;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Clash Display', sans-serif;
+}

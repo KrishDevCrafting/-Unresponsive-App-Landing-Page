@@ -22,11 +22,8 @@ const Main = () => {
             faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
           </p>
           <button id="child-btn">
-            
             Get Started
-            
-             <svg
-            
+            <svg
               width="25"
               height="8"
               viewBox="0 0 25 8"
@@ -40,7 +37,9 @@ const Main = () => {
             </svg>
           </button>
           <button id="child-btn-2"> Watch Video</button>
-          <span id="img-design"><img src={ImgDesign} alt="img" /></span>
+          <span id="img-design">
+            <img src={ImgDesign} alt="img" />
+          </span>
         </div>
         <div className="child-2">
           <img id="img1" src={img2} alt="img1" />
