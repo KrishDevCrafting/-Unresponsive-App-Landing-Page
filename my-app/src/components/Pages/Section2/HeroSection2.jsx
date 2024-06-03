@@ -8,6 +8,9 @@ const Section2 = () => {
         <div className="box">
           <img src={img} alt="img" />
         </div>
+
+
+        
         <div className="box">
           <h3>FEATURES</h3>
           <h1>Uifry Preminum</h1>
