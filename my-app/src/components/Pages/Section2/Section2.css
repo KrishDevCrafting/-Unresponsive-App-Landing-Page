@@ -1,0 +1,21 @@
+
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap");
+.main-box{
+    margin-top: 80px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 1px solid;
+}
+.box img{
+    width: 719.49px;
+    height: 719.49px;
+}
+
+.box{
+    font-weight: 500;
+        font-size: 18px;
+        font-family: 'Clash Display', sans-serif;
+}

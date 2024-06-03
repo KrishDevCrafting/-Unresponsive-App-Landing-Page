@@ -1,0 +1,86 @@
+
+@import url("https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap");
+
+.parent{
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child-2 img{
+    width: 300px;
+    height: 504.32px
+}
+
+.child{
+    width: 500px;
+    border: 1px solid;
+font-size: 25px;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.child-2{
+    width: 500px;
+    border: 1px solid;
+}
+
+/* img size img 1*/
+#img1 {
+    position: relative;
+    bottom: 57px;
+    right: 30px;
+}
+
+#img2 {
+    position: relative;
+    bottom: 629px;
+    right: 100px;
+    width: 350px;
+}
+
+#img3 {
+    position: relative;
+    left: -199px;
+    bottom: 1182px;
+}
+#inner-text{
+font-size: 18px;
+color: gray;
+}
+#child-btn{
+    margin-top: 20px;
+    background: #000;
+    color: #ffff;
+    width: 180px;
+    height: 60px;
+    border-radius: 4px;
+        font-family: 'Clash Display', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+}
+ #child-btn svg {
+     margin-left: 10px;
+
+     /* Adjust the gap here */
+ }
+#child-btn-2{
+    
+    border: none;
+background-color: #ffff;
+    margin-top: 40px;
+    position: absolute;
+    left: 395px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Clash Display', sans-serif;
+}
+
+#img-design{
+    top: 50px;
+    position: relative;
+right: 40px;
+}
