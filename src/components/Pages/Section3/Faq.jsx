@@ -88,7 +88,7 @@ const Faq = () => {
                 </p>
                 <p>
                   <img src={PhoneIcon} alt="img" id="align-img" />
-                  +1 234 456 678 89
+                  +1 234 456 678 
                 </p>
               </div>
               <div className="box-end">
